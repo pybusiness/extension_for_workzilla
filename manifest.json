@@ -1,0 +1,13 @@
+{
+    "name": "Workzilla Get order",
+    "description": "",
+    "version": "1.0",
+    "manifest_version": 1,
+    "content_scripts":[
+        {
+            "matches":["https://client.work-zilla.com/freelancer"],
+            "js": ["script.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
